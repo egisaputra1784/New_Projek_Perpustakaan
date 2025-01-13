@@ -3,7 +3,6 @@ session_start();
 
 if(!isset($_SESSION['login_user']) || isset($_SESSION['login_anggota'])) {
     header('Location: login.php');
-    exit;
 //     var_dump($_SESSION['login_user']);
 }
 
@@ -58,23 +57,13 @@ if(!isset($_SESSION['login_user']) || isset($_SESSION['login_anggota'])) {
             
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item">
-                <a class="nav-link" href="index.php">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
-            </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="buku-tamu.php">
+                <a class="nav-link" href="buku.php">
                     <i class="fas fa-fw fa-book-open"></i>
-                    <span>Buku Tamu</span></a>
+                    <span>Buku</span></a>
             </li>
             
-            <li class="nav-item">
-                <a class="nav-link" href="laporan.php">
-                    <i class="fas fa-fw fa-file-alt"></i>
-                    <span>Laporan</span></a>
-            </li>
 
             <li class="nav-item">
                 <a class="nav-link" href="users.php">
@@ -85,11 +74,6 @@ if(!isset($_SESSION['login_user']) || isset($_SESSION['login_anggota'])) {
                 <a class="nav-link" href="anggota.php">
                     <i class="fas fa-fw fa-users"></i>
                     <span>Members</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="buku.php">
-                    <i class="fas fa-fw fa-users"></i>
-                    <span>Buku</span></a>
             </li>
 
 

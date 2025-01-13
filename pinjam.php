@@ -78,7 +78,7 @@ require_once('function_frontend.php');
     <nav class="navbar navbar-expand-lg fixed-top" color-on-scroll="300">
         <div class="container">
             <div class="navbar-translate">
-                <a class="navbar-brand" href="index.html" rel="tooltip" title="Coded by Creative Tim"
+                <a class="navbar-brand" href="index.php" rel="tooltip" title="Coded by Creative Tim"
                     data-placement="bottom" >
                     The Library
                 </a>
@@ -112,18 +112,17 @@ require_once('function_frontend.php');
         <table class="table">
             <thead>
                 <tr>
-                    <th></th> <!-- Empty header for checkbox column -->
+                    <th>NO</th> <!-- Empty header for checkbox column -->
                     <th>Gambar</th>
                     <th>Judul</th>
                     <th>Status</th>
                     <th>Genre</th>
                     <th>Tanggal Pinjam</th>
                     <th>Tanggal kembali</th>
-                    <th>Aksi</th>
                 </tr>
             </thead>
             <tbody>
-                <?=
+                <?php
                 $no = 1;
                 $idM = $_SESSION['id_anggota'];
 
@@ -137,7 +136,7 @@ require_once('function_frontend.php');
                 ?>
                 <!-- Buku 1 -->
                 <tr>
-                    <td class="checkbox-center"><input type="checkbox"></td> <!-- Centered Checkbox -->
+                    <td><?= $no++; ?></td> <!-- TAMBAHKAN FUNGSI NOMBOR -->
                     <td><img src="./backend/assets/upload_gambar/<?= $pinjam['gambar'] ?>" alt="Moment of Us"></td>
                     <td><?= $pinjam['judul']?></td>
                     <td><?= $pinjam['status']?></td>

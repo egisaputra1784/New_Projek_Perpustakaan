@@ -9900,14 +9900,14 @@ a:focus {
 }
 
 .bg-gradient-primary {
-  background-color: #4e73df;
-  background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
+  background-color: #18181c;
+  background-image: linear-gradient(180deg, #18181c 10%, #18181c 100%);
   background-size: cover;
 }
 
 .bg-gradient-secondary {
-  background-color: #858796;
-  background-image: linear-gradient(180deg, #858796 10%, #60616f 100%);
+  background-color: #1cc88a;
+  background-image: linear-gradient(180deg, #1cc88a 10%, #60616f 100%);
   background-size: cover;
 }
 
@@ -10886,6 +10886,7 @@ form.user .form-control-user {
   font-size: 0.8rem;
   border-radius: 10rem;
   padding: 1.5rem 1rem;
+
 }
 
 form.user .btn-user {

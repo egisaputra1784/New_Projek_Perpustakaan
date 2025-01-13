@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Book Detail</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+
+        .header img {
+            width: 150px;
+            height: auto;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+
+        .header-content {
+            flex: 1;
+        }
+
+        .header-content h1 {
+            margin: 0;
+            font-size: 28px;
+            color: #333;
+        }
+
+        .header-content p {
+            margin: 5px 0;
+            color: #666;
+        }
+
+        .rating {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .rating i {
+            color: #ffcc00;
+        }
+
+        .buttons {
+            margin-top: 15px;
+        }
+
+        .buttons .btn {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            margin-right: 10px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .btn-buy {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .btn-sample {
+            background-color: #f8f9fa;
+            color: #007bff;
+            border: 1px solid #007bff;
+        }
+
+        .btn-wishlist {
+            background-color: #f8f9fa;
+            color: #555;
+            border: 1px solid #ddd;
+        }
+
+        .section {
+            margin-top: 30px;
+        }
+
+        .section h3 {
+            margin-bottom: 15px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .section p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .book-list {
+            display: flex;
+            gap: 15px;
+        }
+
+        .book-item {
+            flex: 0 0 auto;
+            text-align: center;
+        }
+
+        .book-item img {
+            width: 100px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .book-item p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <img src="assets/img/buku/buku (12).jpeg" alt="Book Cover">
+            <div class="header-content">
+                <h1>Harry Potter and the Deathly Hallows</h1>
+                <p>J.K. Rowling</p>
+                <p>12 Publications | 32,345 Followers</p>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span style="margin-left: 10px; color: #666;">23,534 Reviews</span>
+                </div>
+                <div class="buttons">
+                    <button class="btn btn-buy">BUY $9.34</button>
+                    <button class="btn btn-sample">Free Sample</button>
+                    <button class="btn btn-wishlist">To Wishlist</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div class="section">
+            <h3>About</h3>
+            <p>
+                There are still one or two questions left unanswered at the end of Harry Potter's last adventure. It cannot be
+                giving anything away to reveal that we never discover how Eloise Midgen is getting on, or whether Dumbledore
+                ever saw fit to knit himself a pair of patterned socks...
+            </p>
+        </div>
+
+        <!-- Suggested Books Section -->
+        <div class="section">
+            <h3>You may also like</h3>
+            <div class="book-list">
+                <div class="book-item">
+                    <img src="assets/img/buku/buku (1).jpeg" alt="Book 1">
+                    <p>Harry Potter and the Goblet of Fire</p>
+                    <p>$12.45</p>
+                </div>
+                <div class="book-item">
+                    <img src="assets/img/buku/buku (5).jpeg" alt="Book 2">
+                    <p>Harry Potter and the Half-Blood Prince</p>
+                    <p>$12.45</p>
+                </div>
+                <div class="book-item">
+                    <img src="assets/img/buku/buku (11).jpeg" alt="Book 3">
+                    <p>The Last Wild</p>
+                    <p>$9.45</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -98,7 +98,7 @@ ini_set('display_startup_errors', 1);  // Menampilkan error saat startup
         <span class="icon text-while-50">
           <i class="fas fa-plusmbe"></i>
         </span>
-        <span class="text">Data Tamu</span>
+        <span class="text">Data Buku</span>
       </button>
     </div>
     <div class="card-body">

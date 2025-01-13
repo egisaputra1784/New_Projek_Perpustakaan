@@ -1,0 +1,62 @@
+ .card_buku {
+    border: none;
+    overflow: hidden;
+    border-radius: 10px 10px ;
+    transition: transform 0.2s ease;
+  }
+  
+  .card_buku:hover {
+    transform: translateY(-5px);
+    
+  }
+  
+  .card-img-container {
+    width: 100%;
+    height: 360px; /* Tinggi gambar */
+    overflow: hidden;
+    border-radius: 10px 10px 10px 10px; /* Membulatkan sudut atas */
+  }
+  
+  .card-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Menyesuaikan gambar agar sesuai */
+   
+  }
+  
+  .card-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin: 0; /* Menghilangkan margin default */
+  }
+
+  .card-pengarang {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: dimgray;
+    text-align: center;
+    margin: 0; /* Menghilangkan margin default */
+    margin-top: -10px;
+  }
+
+
+  body{
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+  }
+
+  
+  
+  
+
+  

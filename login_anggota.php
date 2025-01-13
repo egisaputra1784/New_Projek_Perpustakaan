@@ -69,7 +69,7 @@ if (isset($_POST['login_anggota'])) {
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Login</title>
+    <title>Perpustakaan - Login</title>
 
     <!-- Custom fonts for this template-->
     <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -79,10 +79,11 @@ if (isset($_POST['login_anggota'])) {
 
     <!-- Custom styles for this template-->
     <link href="assets/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="assets/css/login.css" rel="stylesheet">
 
 </head>
 
-<body class="bg-gradient-primary">
+<body class="bg-gradient-primary1">
 
     <div class="container">
 
@@ -97,42 +98,36 @@ if (isset($_POST['login_anggota'])) {
         ?>
 
         <!-- Outer Row -->
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" style="margin-top: 100px;">
 
             <div class="col-xl-10 col-lg-12 col-md-9">
 
                 <div class="card o-hidden border-0 shadow-lg my-5">
                     <div class="card-body p-0">
                         <!-- Nested Row within Card Body -->
-                        <div class="row">
-                            <div class="col-lg-6 d-none d-lg-block bg-login-image">
-                                <img class="img-fluid mx-auto w-100 p-1 h-100" src="assets/img/undraw_posting_photo.svg" alt="">
+                        <div class="row" style="background-color: #1f1e1e; background-image: linear-gradient(150deg, #2a2c2b 10%, #121212 100%);">
+                            <div class="col-lg-6 d-none d-lg-block bg-login-image" style="margin-left: -20px; margin-top: -10px; margin-bottom: -10px;">
+                                <img class="img-fluid mx-auto w-100 p-1 h-100" src="assets/img/examples/Side Login.png" alt="">
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6" style="width: 850px;">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-4">Selamat datang!</h1>
+                                        <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: bold; margin-bottom:10px; color:white;">LOGIN</h1>
                                     </div>
                                     <form method="post" action="" class="user">
                                         <div class="form-group">
-                                            <input type="text" class="form-control form-control-user" id="username" name="username" placeholder="Username ...">
+                                            <input type="text" class="form-control1 form-control-user1" id="username" name="username" placeholder="Username ...">
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" class="form-control form-control-user" id="password" name="password" placeholder="Password...">
+                                            <input type="password" class="form-control1 form-control-user1" id="password" name="password" placeholder="Password...">
                                         </div>
-                                        <div class="form-group">
-                                            <div class="custom-control custom-checkbox small">
-                                                <input type="checkbox" class="custom-control-input" id="remember" name="remember">
-                                                <label class="custom-control-label" for="customCheck">Remember Me</label>
-                                            </div>
-                                        </div>
-                                        <button type="submit" name="login_anggota" id="login_anggota" class="btn btn-primary btn-user btn-block">
+                                        <button type="submit" name="login_anggota" id="login_anggota" class="btn btn-primary1 btn-user btn-block">
                                             Login
                                         </button>
                                     </form>
                                     <hr>
                                     <div class="text-center">
-                                        <a class="small" href="forgot-password.html">Forgot Password?</a>
+                                        <a class="small" style="color: white;" href="forgot-password.html">Forgot Password?</a>
                                     </div>
                                 </div>
                             </div>
